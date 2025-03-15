@@ -1,0 +1,49 @@
+{
+  "name": "mcpboilerplate",
+  "version": "1.0.0",
+  "description": "### 모델 컨텍스트 프로토콜(MCP) 서버 개발 가이드: LLM을 위한 강력한 도구 구축",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "type-check": "tsc --noEmit",
+    "start": "node dist/index.js",
+    "start:cli": "cross-env NODE_ENV=cli node dist/index.js",
+    "start:http": "node dist/index.js",
+    "dev": "cross-env NODE_ENV=development tsx watch src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mineru98/MCPBoilerPlate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mineru98/MCPBoilerPlate/issues"
+  },
+  "homepage": "https://github.com/Mineru98/MCPBoilerPlate#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "axios": "^1.8.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.1",
+    "remeda": "^2.21.2",
+    "yargs": "^17.7.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "@types/yargs": "^17.0.33",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "prettier": "^3.5.3",
+    "tsc-alias": "^1.8.11",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
