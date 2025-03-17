@@ -1,4 +1,4 @@
-# MCPBoilerPlate
+# unsplash-mcp-server
 
 ### 모델 컨텍스트 프로토콜(MCP) 서버 개발 가이드: LLM을 위한 강력한 도구 구축
 
